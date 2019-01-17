@@ -7,6 +7,110 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://beta.ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <!-- Default -->
+  <ion-badge>99</ion-badge>
+
+  <!-- Colors -->
+  <ion-badge color="primary">11</ion-badge>
+  <ion-badge color="secondary">22</ion-badge>
+  <ion-badge color="tertiary">33</ion-badge>
+  <ion-badge color="success">44</ion-badge>
+  <ion-badge color="warning">55</ion-badge>
+  <ion-badge color="danger">66</ion-badge>
+
+
+  <ion-card>
+    <!-- <ion-img src="/assets/myImg.png"></ion-img> -->
+    <ion-card-header>
+      <ion-card-title>Hello World</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>The content for this card</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-checkbox color="primary" checked></ion-checkbox>
+  <ion-checkbox color="secondary"></ion-checkbox>
+  <ion-checkbox color="danger" checked></ion-checkbox>
+  <ion-checkbox color="light"></ion-checkbox>
+  <ion-checkbox color="dark" checked></ion-checkbox>
+
+  <ion-item>
+    <ion-label>Date</ion-label>
+    <ion-datetime display-format="MM/DD/YYYY"></ion-datetime>
+  </ion-item>
+
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        ion-col
+      </ion-col>
+      <ion-col>
+        ion-col
+      </ion-col>
+      <ion-col>
+        ion-col
+      </ion-col>
+      <ion-col>
+        ion-col
+      </ion-col>
+    </ion-row>
+  
+    <ion-row>
+      <ion-col size="6">
+        ion-col [size="6"]
+      </ion-col>
+      <ion-col>
+        ion-col
+      </ion-col>
+      <ion-col>
+        ion-col
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-list>
+    <ion-item>
+      <ion-avatar slot="start">
+      </ion-avatar>
+      <ion-label>
+        <h2>Finn</h2>
+        <h3>I'm a big deal</h3>
+        <p>Listen, I've had a pretty messed up day...</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+
+  <ion-item>
+    <ion-range>
+      <ion-icon slot="start" size="small" name="sunny"></ion-icon>
+      <ion-icon slot="end" name="sunny"></ion-icon>
+    </ion-range>
+  </ion-item>
+
+  <ion-toolbar>
+    <ion-searchbar></ion-searchbar>
+  </ion-toolbar>
+
+  <ion-item>
+    <ion-label>Hair Color</ion-label>
+    <ion-select value="brown" ok-text="Okay" cancel-text="Dismiss">
+      <ion-select-option value="brown">Brown</ion-select-option>
+      <ion-select-option value="blonde">Blonde</ion-select-option>
+      <ion-select-option value="black">Black</ion-select-option>
+      <ion-select-option value="red">Red</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+
 </ion-content>
