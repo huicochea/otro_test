@@ -1,6 +1,8 @@
 {
   "name": "nuevo_test",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "01c063ad"
 }

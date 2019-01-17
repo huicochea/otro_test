@@ -1,14 +1,14 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Header
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
   <!-- Default -->
-  <ion-badge>99</ion-badge>
+  <h1>Contenido</h1>
 
   <!-- Colors -->
   <ion-badge color="primary">11</ion-badge>
@@ -22,10 +22,10 @@
   <ion-card>
     <!-- <ion-img src="/assets/myImg.png"></ion-img> -->
     <ion-card-header>
-      <ion-card-title>Hello World</ion-card-title>
+      <ion-card-title>API Creada por su lord Huico</ion-card-title>
     </ion-card-header>
     <ion-card-content>
-      <p>The content for this card</p>
+      <p>Contenido de una tarjeta </p>
     </ion-card-content>
   </ion-card>
 
@@ -36,43 +36,43 @@
   <ion-checkbox color="dark" checked></ion-checkbox>
 
   <ion-item>
-    <ion-label>Date</ion-label>
+    <ion-label>Fechas</ion-label>
     <ion-datetime display-format="MM/DD/YYYY"></ion-datetime>
   </ion-item>
 
 
-  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+  <!-- <ion-fab vertical="bottom" horizontal="end" slot="fixed">
     <ion-fab-button>
       <ion-icon name="add"></ion-icon>
     </ion-fab-button>
-  </ion-fab>
+  </ion-fab> -->
 
 
   <ion-grid>
     <ion-row>
       <ion-col>
-        ion-col
+        Columna
       </ion-col>
       <ion-col>
-        ion-col
+        Columna
       </ion-col>
       <ion-col>
-        ion-col
+        Columna
       </ion-col>
       <ion-col>
-        ion-col
+        Columna
       </ion-col>
     </ion-row>
   
     <ion-row>
       <ion-col size="6">
-        ion-col [size="6"]
+        Columna [size="6"]
       </ion-col>
       <ion-col>
-        ion-col
+        Columna
       </ion-col>
       <ion-col>
-        ion-col
+        Columna
       </ion-col>
     </ion-row>
   </ion-grid>
@@ -103,14 +103,38 @@
   </ion-toolbar>
 
   <ion-item>
-    <ion-label>Hair Color</ion-label>
+    <ion-label>Color de pelo</ion-label>
     <ion-select value="brown" ok-text="Okay" cancel-text="Dismiss">
-      <ion-select-option value="brown">Brown</ion-select-option>
+      <ion-select-option value="brown">Cafe</ion-select-option>
       <ion-select-option value="blonde">Blonde</ion-select-option>
-      <ion-select-option value="black">Black</ion-select-option>
-      <ion-select-option value="red">Red</ion-select-option>
+      <ion-select-option value="black">Negro</ion-select-option>
+      <ion-select-option value="red">Rojo</ion-select-option>
     </ion-select>
   </ion-item>
 
+  <ion-slides pager="true">
+    <ion-slide>
+      <h1>Slide 1</h1>
+    </ion-slide>
+  
+    <ion-slide>
+      <h1>Slide 2</h1>
+    </ion-slide>
+  
+    <ion-slide>
+      <h1>Slide 3</h1>
+    </ion-slide>
+  </ion-slides>
+
+
+  <ion-spinner></ion-spinner>
+<ion-spinner name="lines"></ion-spinner>
 
 </ion-content>
+
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Huicosoft</ion-title>
+  </ion-toolbar>
+</ion-footer>
