@@ -1,5 +1,6 @@
 {
   "name": "nuevo_test",
   "integrations": {},
-  "type": "angular"
+  "type": "angular",
+  "id": "01c063ad"
 }
